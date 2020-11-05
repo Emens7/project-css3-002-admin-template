@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+
      <header class="header--dark">
         <h3 class="header__title">
             Admin Page
@@ -14,12 +16,31 @@
 
         <div class="header__search">
             <input class="search__input">
-            <button class="search__btn"></button>
+            <button class="search__btn, fa fa-search"></button>
         </div>
 
      </header>
 
-     <main class="main">
+     <main class="main flex-row">
+
+        <aside class="aside">
+
+            <nav class="main__nav">
+
+                <ul class="nav__ul fa-ul">
+                    <li class="nav__li--uppercase">Core</li>
+                    <li><span class="fa-li"><i class="fa fa-tachometer"></i></span>Dashboard</li>
+                    <li class="nav__li--uppercase">Interface</li>
+                    <li><span class="fa-li"><i class="fa fa-windows"></i></span>Layouts</li>
+                    <li><span class="fa-li"><i class="fa fa-bookmark"></i></span>Pages</li>
+                    <li class="nav__li--uppercase">Addons</li>
+                    <li><span class="fa-li"><i class="fa fa-area-chart"></i></span>Charts</li>
+                    <li><span class="fa-li"><i class="fa fa-table"></i></span>Tables</li>
+                </ul>
+
+            </nav>
+
+        </aside>
 
         <section class="content">
 
@@ -32,50 +53,60 @@
             </div>
 
             <div class="main__cards">
+
                 <div class="main__card">
 
-                    <div class="main__card--blue"></div>
-                        <div class="card__top"></div>
-                        <div class="card__bottom"></div>
+                    <div class="main__card--blue flex-container">
 
-                    <div class="main__card--yellow"></div>
-                        <div class="card__top"></div>
-                        <div class="card__bottom"></div>
+                        <div class="card__top">
+                            Kék kártya
+                        </div>
 
-                    <div class="main__card--green"></div>
-                        <div class="card__top"></div>
-                        <div class="card__bottom"></div>
+                        <div class="card__bottom">
+kék
+                        </div>
+                    </div>    
 
-                    <div class="main__card--red"></div>
-                        <div class="card__top"></div>
-                        <div class="card__bottom"></div>
+                        <div class="main__card--yellow flex-container">
+
+                        <div class="card__top">
+                            Sárga kártya
+                        </div>
+
+                        <div class="card__bottom">
+
+                        </div>
+                    </div>
+
+                    <div class="main__card--green flex-container">
+
+                        <div class="card__top">
+                            Zöld kártya
+                        </div>
+
+                        <div class="card__bottom">
+
+                        </div>
+                    </div>    
+
+                    <div class="main__card--red flex-container">
+                        
+                        <div class="card__top">
+                            Piros kártya
+                        </div>
+                        <div class="card__bottom">
+
+                        </div>
+                    </div>    
 
                 </div>
-            </div>
+            
 
         </section>
 
-        <aside class="">
-
-            <nav class="main__nav">
-
-                <ul class="nav__ul">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-
-            </nav>
-
-        </aside>
-
      </main>
 
+    </div>
 
 </body>
 </html>
