@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 h1, p {
     padding: 1.5rem;
 }
@@ -62,6 +66,7 @@ h1, p {
 .aside {
     flex: 10%;
     height: 100vh;
+    background-color:  rgb(33, 37, 41);
 }
 
 .content {
@@ -80,8 +85,8 @@ h1, p {
     margin: 0.5rem;
 }
 
-.main__nav {
 
+.main__nav {
     background-color:  rgb(33, 37, 41);
     height: 100vh;
     color: rgb(233, 236, 239);
