@@ -36,11 +36,13 @@ h1, p {
 
 .search__input {
     border-top-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    padding: 0.75rem 0.375rem;
+    border-bottom-left-radius: 4px;
+    border: solid 1px rgb(236, 236, 236);
+    padding: 0.375rem 0.75rem;
     font-size: 1.2rem;
     outline: none;
     transition: border-color .15s;
+    margin-right: 3px;
 }
 
 .search__input:focus{
@@ -48,8 +50,16 @@ h1, p {
 }
 
 .search__btn {
-    background-color: rgb(104, 132, 161);
+    background-color: rgb(0, 123, 255);
+    outline: none;
     text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    color: rgb(236, 236, 236);
+    border: none;
+    margin-left: 1px;
 }
 
 .content {
@@ -61,6 +71,7 @@ h1, p {
 .main {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 .aside {
